@@ -40,6 +40,6 @@
         <!-- Element Buttons -->
             <Button x:Name="HydrogenButton" Grid.Column="0" Grid.Row="1" Content="H" Background="#FF80CBC4" Width="20" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
             <Button x:Name="LithiumButton" Grid.Column="0" Grid.Row="3" Content="Li" Background="#FFFFAB91" Width="40" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
-            <Button x:Name="LisButton" Grid.Column="0" Grid.Row="3" Content="Li" Background="#FFFFAB91" Width="40" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+            <Button x:Name="SodiumButton" Grid.Column="0" Grid.Row="3" Content="Li" Background="#FFFFAB91" Width="40" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
         </Grid>
 </Window>
