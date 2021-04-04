@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TreeSize"
         mc:Ignorable="d"
-        Title="Elements" Height="700" Width="1000" Background="#FFECEBE3" BorderBrush="White" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
+        Title="Elements" Height="700" Width="1000" Background="#ffffff" BorderBrush="White" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
     <Grid>
-        <!-- Grid Definitions -->
+        <!-- Grid Definitions - 18 Colums, 13 Rows -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -21,8 +21,14 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -35,11 +41,57 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        
+
         <!-- Element Buttons -->
-            <Button x:Name="HydrogenButton" Grid.Column="0" Grid.Row="1" Content="H" Background="#FF80CBC4" Width="20" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
-            <Button x:Name="LithiumButton" Grid.Column="0" Grid.Row="3" Content="Li" Background="#FFFFAB91" Width="40" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
-            <Button x:Name="SodiumButton" Grid.Column="0" Grid.Row="3" Content="Li" Background="#FFFFAB91" Width="40" Height="20" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
-        </Grid>
+        <!-- Column 0 Elements-->
+        <Button x:Name="HydrogenButton" Grid.Column="0" Grid.Row="2" Content="H" Background="#FF80CBC4" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="LithiumButton" Grid.Column="0" Grid.Row="3" Content="Li" Background="#FFFFAB91" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="SodiumButton" Grid.Column="0" Grid.Row="4" Content="Na" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="PotasiumButton" Grid.Column="0" Grid.Row="5" Content="K" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="RubidiumButton" Grid.Column="0" Grid.Row="6" Content="Rb" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="CaesiumButton" Grid.Column="0" Grid.Row="7" Content="Cs" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="FranciumButton" Grid.Column="0" Grid.Row="8" Content="FR" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+
+        <!-- Column 1 Elements-->
+        <Button x:Name="BerylliumButton" Grid.Column="1" Grid.Row="4" Content="Be" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="MagnesiumButton" Grid.Column="1" Grid.Row="5" Content="Mg" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="CalciumButton" Grid.Column="1" Grid.Row="6" Content="Ca" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="StrontiumButton" Grid.Column="1" Grid.Row="7" Content="St" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="BariumButton" Grid.Column="1" Grid.Row="8" Content="Ba" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="RadiumButton" Grid.Column="1" Grid.Row="9" Content="Ra" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+
+        <!-- Column 2 Elements-->
+        <Button x:Name="ScandiumButton" Grid.Column="2" Grid.Row="6" Content="Sc" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="YttriumButton" Grid.Column="2" Grid.Row="7" Content="Y" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+
+        <!-- Column 3 Elements-->
+        <Button x:Name="TitaniumButton" Grid.Column="3" Grid.Row="6" Content="Ti" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="ZirconiumButton" Grid.Column="3" Grid.Row="7" Content="Zr" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="HafniumButton" Grid.Column="3" Grid.Row="8" Content="Hf" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="LanthanumButton" Grid.Column="3" Grid.Row="10" Content="La" Background="#FFCE93D9" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="ActiniumButton" Grid.Column="3" Grid.Row="11" Content="Ac" Background="#FFF48FB1" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+
+        <!-- Column 4 Elements-->
+        <Button x:Name="VanadiumButton" Grid.Column="4" Grid.Row="6" Content="V" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="NiobiumButton" Grid.Column="4" Grid.Row="7" Content="Nb" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="TantalumButton" Grid.Column="4" Grid.Row="8" Content="Ta" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="CeriumButton" Grid.Column="4" Grid.Row="10" Content="Ce" Background="#FFCE93D9" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="ThoriumButton" Grid.Column="4" Grid.Row="11" Content="Th" Background="#FFF48FB1" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+
+        <!-- Column 5 Elements-->
+        <Button x:Name="ChromiumButton" Grid.Column="5" Grid.Row="6" Content="Cr" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="MolybdenumButton" Grid.Column="5" Grid.Row="7" Content="Mo" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="TungstenButton" Grid.Column="5" Grid.Row="8" Content="W" Background="#FFFFEE82" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="PraseodymiumButton" Grid.Column="5" Grid.Row="10" Content="Pr" Background="#FFCE93D9" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+        <Button x:Name="ProtactiniumButton" Grid.Column="5" Grid.Row="11" Content="Pa" Background="#FFF48FB1" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}"></Button>
+
+        <!-- Column 5 Elements-->
+
+        <!-- Info Frame -->
+        <Rectangle Grid.Column="3" Grid.ColumnSpan="8" Grid.Row="0" Grid.RowSpan="4" Stroke="Black" Margin="0,32,0,6" Fill="Black"/>
+
+    </Grid>
 </Window>
