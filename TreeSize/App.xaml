@@ -19,7 +19,6 @@
                             Padding="5"
                             BorderBrush="Transparent">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
-
                             </ContentPresenter>
                         </Border>
                     </ControlTemplate>
@@ -61,5 +60,6 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
+        <!-- End of 'Style' button Roundness-->
     </Application.Resources>
 </Application>
