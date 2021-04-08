@@ -102,16 +102,24 @@
         <TextBox x:Name="InfoBoxTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="21,12,35,12" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="1" UndoLimit="105" FontFamily="Bahnschrift" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False"></TextBox>
 
         <!-- Atomic Number for Element Name -->
-        <TextBox x:Name="AtomicNumberTitle" Grid.ColumnSpan="3" Grid.Column="6" Grid.RowSpan="2" Margin="38,35,17,42" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="1" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Atomic Number" IsHitTestVisible="False"></TextBox>
-        <TextBox x:Name="AtomicNumberValue" Grid.Column="9" Margin="7,35,32,0" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="1" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="AtomicNumberTitle" Grid.ColumnSpan="3" Grid.Column="6" Grid.RowSpan="2" Margin="38,39,17,37" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="1" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Atomic Number" IsHitTestVisible="False"></TextBox>
+        <TextBox x:Name="AtomicNumberValue" Grid.Column="9" Margin="7,40,32,48" Text="123" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="1" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
 
         <!-- Atomic Weight for Element Name -->
-        <TextBox x:Name="AtomicWeightTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="38,7,17,18" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Atomic Weight" IsHitTestVisible="False"/>
-        <TextBox x:Name="AtomicWeightValue" Grid.Column="9" Margin="7,7,28,28" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="AtomicWeightTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="38,10,17,15" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Atomic Weight" IsHitTestVisible="False"/>
+        <TextBox x:Name="AtomicWeightValue" Grid.Column="9" Margin="7,10,32,26" Text="123" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
 
         <!-- Atomic Weight for Element Name -->
-        <TextBox x:Name="AtomicElectroTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="38,29,17,49" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Electronegativity" IsHitTestVisible="False" Grid.RowSpan="2"/>
-        <TextBox x:Name="AtomicElectroValue" Grid.Column="9" Margin="7,7,28,28" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="AtomicElectroTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="38,32,17,48" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Electronegativity" IsHitTestVisible="False" Grid.RowSpan="2"/>
+        <TextBox x:Name="AtomicElectroValue" Grid.Column="9" Margin="7,33,32,4" Text="123" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="2" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
+
+        <!-- Boiling Point for Element Name -->
+        <TextBox x:Name="BoilingPointTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="39,5,17,30" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="3" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Boiling Point" IsHitTestVisible="False"/>
+        <TextBox x:Name="BoilingPointValue" Grid.Column="9" Margin="7,5,32,32" Text="123" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="3" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
+
+        <!-- Melting Point for Element Name -->
+        <TextBox x:Name="MeltingPointTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="38,28,17,5" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="3" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Melting Point" IsHitTestVisible="False"/>
+        <TextBox x:Name="MeltingPointValue" Grid.Column="9" Margin="7,27,32,10" Text="123" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="3" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
 
 
         <!-- End of Info Frame -->

@@ -40,6 +40,10 @@ namespace TreeSize
             AtomicWeightValue.Visibility = Visibility.Hidden;
             AtomicElectroTitle.Visibility = Visibility.Hidden;
             AtomicElectroValue.Visibility = Visibility.Hidden;
+            BoilingPointTitle.Visibility = Visibility.Hidden;
+            BoilingPointValue.Visibility = Visibility.Hidden;
+            MeltingPointTitle.Visibility = Visibility.Hidden;
+            MeltingPointValue.Visibility = Visibility.Hidden;
         }
 
         private void EnablingInfoBox()
@@ -52,6 +56,10 @@ namespace TreeSize
             AtomicWeightValue.Visibility = Visibility.Visible;
             AtomicElectroTitle.Visibility = Visibility.Visible;
             AtomicElectroValue.Visibility = Visibility.Visible;
+            BoilingPointTitle.Visibility = Visibility.Visible;
+            BoilingPointValue.Visibility = Visibility.Visible;
+            MeltingPointTitle.Visibility = Visibility.Visible;
+            MeltingPointValue.Visibility = Visibility.Visible;
         }
 
         private void HydrogenButton_Click(object sender, RoutedEventArgs e)
@@ -59,9 +67,11 @@ namespace TreeSize
             EnablingInfoBox();
             InfoBoxTitle.Text = "Hydrogen";
             InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FF80CBC4"));
-            AtomicNumberValue.Text = "1234";
-            AtomicWeightValue.Text = "1234";
-            AtomicElectroValue.Text = "1234";
+            AtomicNumberValue.Text = "1";
+            AtomicWeightValue.Text = "1.00784 u";
+            AtomicElectroValue.Text = "2.2";
+            BoilingPointValue.Text = "-252.9 °C";
+            MeltingPointValue.Text = "-259.14 °C";
         }
 
         private void LithiumButton_Click(object sender, RoutedEventArgs e)
@@ -72,6 +82,8 @@ namespace TreeSize
             AtomicNumberValue.Text = "123";
             AtomicWeightValue.Text = "123";
             AtomicElectroValue.Text = "123";
+            BoilingPointValue.Text = "123";
+            MeltingPointValue.Text = "123";
         }
     }
 }
