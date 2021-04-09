@@ -79,11 +79,47 @@ namespace TreeSize
             EnablingInfoBox();
             InfoBoxTitle.Text = "Lithium";
             InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFAB91"));
-            AtomicNumberValue.Text = "123";
-            AtomicWeightValue.Text = "123";
-            AtomicElectroValue.Text = "123";
-            BoilingPointValue.Text = "123";
-            MeltingPointValue.Text = "123";
+            AtomicNumberValue.Text = "3";
+            AtomicWeightValue.Text = "6.941 u";
+            AtomicElectroValue.Text = "0.98";
+            BoilingPointValue.Text = "1,330 °C";
+            MeltingPointValue.Text = "180.5 °C";
+        }
+
+        private void SodiumButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Sodium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFAB91"));
+            AtomicNumberValue.Text = "11";
+            AtomicWeightValue.Text = "22.989769 u";
+            AtomicElectroValue.Text = "0.93";
+            BoilingPointValue.Text = "882.8 °C";
+            MeltingPointValue.Text = "97.79 °C";
+        }
+
+        private void PotassiumButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Potassium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFAB91"));
+            AtomicNumberValue.Text = "19";
+            AtomicWeightValue.Text = "39.0983 u";
+            AtomicElectroValue.Text = "0.82";
+            BoilingPointValue.Text = "758.8 °C";
+            MeltingPointValue.Text = "63.5 °C";
+        }
+
+        private void RubidiumButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Rubidium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFAB91"));
+            AtomicNumberValue.Text = "37";
+            AtomicWeightValue.Text = "85.4678 u";
+            AtomicElectroValue.Text = "0.82";
+            BoilingPointValue.Text = "688 °C";
+            MeltingPointValue.Text = "39.3 °C";
         }
     }
 }
