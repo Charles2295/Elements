@@ -171,5 +171,11 @@ namespace TreeSize
             BoilingPointValue.Text = "1,090 °C";
             MeltingPointValue.Text = "24.305 °C";
         }
+
+        private void BtnLoadFromResource_Click(object sender, RoutedEventArgs e)
+        {
+            Uri resourceUri = new Uri("/assets/images/hydrogen.png", UriKind.Relative);
+            imgDynamic.Source = new BitmapImage(resourceUri);
+        }
     }
 }

@@ -89,7 +89,10 @@
         <Button x:Name="PraseodymiumButton" Grid.Column="5" Grid.Row="11" Content="Pr" Background="#FFCE93D9" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="8,8,7,5"></Button>
         <Button x:Name="ProtactiniumButton" Grid.Column="5" Grid.Row="12" Content="Pa" Background="#FFF48FB1" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="8,8,7,4"></Button>
 
-        <!-- Column 5 Elements-->
+        <!-- Column 6 Elements-->
+        
+        <!-- Images -->
+        <!--<Image Source="C:\Users\charl\code\Elements\TreeSize\assets\images/hydrogen.png" />-->
 
         <!-- Info Frame -->
         <Rectangle x:Name="InfoBox" Grid.Column="3" Grid.ColumnSpan="8" Grid.Row="0" Grid.RowSpan="4" Margin="0,38,0,1" Stroke="#000000" StrokeThickness="0.2" Stretch="Fill" Fill="White" RadiusX="3" RadiusY="3">
