@@ -53,12 +53,12 @@
         <Button x:Name="SodiumButton" Grid.Column="0" Grid.Row="4" Content="Na" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="SodiumButton_Click" Margin="8,9,8,4"></Button>
         <Button x:Name="PotasiumButton" Grid.Column="0" Grid.Row="5" Content="K" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="PotassiumButton_Click" Margin="8,8,8,5"></Button>
         <Button x:Name="RubidiumButton" Grid.Column="0" Grid.Row="6" Content="Rb" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="RubidiumButton_Click" Margin="8,8,8,4" Grid.RowSpan="2"></Button>
-        <Button x:Name="CaesiumButton" Grid.Column="0" Grid.Row="8" Content="Cs" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="8,9,8,4"></Button>
-        <Button x:Name="FranciumButton" Grid.Column="0" Grid.Row="9" Content="FR" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="8,8,8,5"></Button>
+        <Button x:Name="CaesiumButton" Grid.Column="0" Grid.Row="8" Content="Cs" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="CaesiummButton_Click" Margin="8,9,8,4"></Button>
+        <Button x:Name="FranciumButton" Grid.Column="0" Grid.Row="9" Content="Fr" Background="#FFFDAA90" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="FranciumButton_Click" Margin="8,8,8,5"></Button>
 
         <!-- Column 1 Elements-->
-        <Button x:Name="BerylliumButton" Grid.Column="1" Grid.Row="4" Content="Be" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="7,9,8,4"></Button>
-        <Button x:Name="MagnesiumButton" Grid.Column="1" Grid.Row="5" Content="Mg" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="7,8,8,5"></Button>
+        <Button x:Name="BerylliumButton" Grid.Column="1" Grid.Row="4" Content="Be" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="BerylliumButton_Click"  Margin="7,9,8,4"></Button>
+        <Button x:Name="MagnesiumButton" Grid.Column="1" Grid.Row="5" Content="Mg" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Click="MagnesiumButton_Click" Margin="7,8,8,5"></Button>
         <Button x:Name="CalciumButton" Grid.Column="1" Grid.Row="6" Content="Ca" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="7,8,8,4" Grid.RowSpan="2"></Button>
         <Button x:Name="StrontiumButton" Grid.Column="1" Grid.Row="8" Content="St" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="7,9,8,4"></Button>
         <Button x:Name="BariumButton" Grid.Column="1" Grid.Row="9" Content="Ba" Background="#FFFECB7F" Width="40" Height="40" BorderBrush="Transparent" Style="{StaticResource btnRounded}" Margin="7,8,8,5"></Button>
@@ -120,8 +120,6 @@
         <!-- Melting Point for Element Name -->
         <TextBox x:Name="MeltingPointTitle" Grid.ColumnSpan="3" Grid.Column="6" Margin="38,20,17,13" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="3" UndoLimit="105" FontFamily="Bahnschrift SemiBold" FontWeight="Bold" IsEnabled="True" Text="Melting Point" IsHitTestVisible="False"/>
         <TextBox x:Name="MeltingPointValue" Grid.Column="9" Margin="7,19,32,18" Text="123" BorderBrush="Transparent" SelectionTextBrush="Transparent" Foreground="#FF8A8A8A" Grid.Row="3" UndoLimit="105" FontFamily="Bahnschrift Light" FontWeight="Bold" IsEnabled="True" IsHitTestVisible="False" Grid.ColumnSpan="2"/>
-
-
         <!-- End of Info Frame -->
 
     </Grid>

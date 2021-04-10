@@ -62,6 +62,7 @@ namespace TreeSize
             MeltingPointValue.Visibility = Visibility.Visible;
         }
 
+        // Column 1
         private void HydrogenButton_Click(object sender, RoutedEventArgs e)
         {
             EnablingInfoBox();
@@ -120,6 +121,55 @@ namespace TreeSize
             AtomicElectroValue.Text = "0.82";
             BoilingPointValue.Text = "688 °C";
             MeltingPointValue.Text = "39.3 °C";
+        }
+
+        private void CaesiummButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Caesium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFAB91"));
+            AtomicNumberValue.Text = "55";
+            AtomicWeightValue.Text = "132.90545 u";
+            AtomicElectroValue.Text = "0.79";
+            BoilingPointValue.Text = "671 °C";
+            MeltingPointValue.Text = "28.5 °C";
+        }
+
+        private void FranciumButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Francium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFFAB91"));
+            AtomicNumberValue.Text = "87";
+            AtomicWeightValue.Text = "223 u";
+            AtomicElectroValue.Text = "0.7";
+            BoilingPointValue.Text = "677 °C";
+            MeltingPointValue.Text = "27 °C";
+        }
+
+        // Column 2
+        private void BerylliumButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Beryllium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFECB7F"));
+            AtomicNumberValue.Text = "4";
+            AtomicWeightValue.Text = "9.012182 u";
+            AtomicElectroValue.Text = "1.57";
+            BoilingPointValue.Text = "2,471 °C";
+            MeltingPointValue.Text = "1,287 °C";
+        }
+
+        private void MagnesiumButton_Click(object sender, RoutedEventArgs e)
+        {
+            EnablingInfoBox();
+            InfoBoxTitle.Text = "Magnesium";
+            InfoBoxTitle.Foreground = new System.Windows.Media.SolidColorBrush((Color)ColorConverter.ConvertFromString("#FFFECB7F"));
+            AtomicNumberValue.Text = "12";
+            AtomicWeightValue.Text = "24.305 u";
+            AtomicElectroValue.Text = "1.31";
+            BoilingPointValue.Text = "1,090 °C";
+            MeltingPointValue.Text = "24.305 °C";
         }
     }
 }
